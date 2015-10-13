@@ -107,5 +107,5 @@ for line in f:
 	if w:
 		crack_wp_login(admin, line.strip(), url)
 	if x:
-		crack_wp_login(admin, line.strip(), url)
+		crack_xmlrpc(admin, line.strip(), url)
 f.close
